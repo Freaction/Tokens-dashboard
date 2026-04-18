@@ -8,6 +8,7 @@ if exist "%NODE_BIN%" (
   where node >nul 2>nul
   if %errorlevel% neq 0 (
     echo [ERROR] Built-in Node.js not found AND system Node.js is not installed!
+    echo Please download Node.js from https://nodejs.org/
     pause
     exit /b
   )
