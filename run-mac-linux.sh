@@ -7,7 +7,7 @@ if [ -f "$NODE_BIN" ]; then
 else
     if ! command -v node &> /dev/null
     then
-        echo "[ERROR] Built-in Node.js not found AND system Node.js is not installed!"
+        echo "[ERROR] Node.js not found!"
         echo "Please install Node.js from https://nodejs.org/"
         exit
     fi
