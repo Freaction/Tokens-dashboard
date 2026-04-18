@@ -1,23 +1,52 @@
-# Tokens Dashboard (Portable App)
+# 🎨 Tokens Dashboard
 
-A visual dashboard for managing, viewing, and comparing design tokens.
-
-## How to use
-
-1. **Download:** [Download this repository as ZIP](https://github.com/Freaction/Tokens-dashboard/archive/refs/heads/main.zip)
-2. **Unzip:** Extract the downloaded archive to any convenient folder on your computer.
-3. **Run:**
-   - **Windows:** Double-click `run-windows.bat`.
-   - **macOS / Linux:** Open terminal in the folder and run `sh run-mac-linux.sh`.
-
-The dashboard will open at `http://localhost:3001`.
-
-## Prerequisites
-
-- [Node.js](https://nodejs.org/) must be installed on your computer.
+Tokens Dashboard — это мощный инструмент для визуализации, управления и анализа дизайн-токенов. Он объединяет работу дизайнеров и разработчиков, предоставляя наглядный интерфейс для работы со сложными архитектурами токенов.
 
 ---
 
-**Author: Dmitriy Chaplinskiy**
-- Website: [dmitriy-chaplinskiy.ru](https://dmitriy-chaplinskiy.ru/)
-- Telegram: [@dmitriy_yiu](https://t.me/dmitriy_yiu)
+## 🚀 Основные возможности
+
+### 📊 Визуализация и Навигация
+- **Граф токенов (Node Canvas):** Интерактивная карта связей между токенами. Позволяет увидеть, как изменения в примитивах влияют на финальные значения.
+- **Дерево токенов:** Удобная древовидная структура для навигации по категориям (Colors, Typography, Spacing и др.).
+- **Интерактивные карточки:** Мгновенный просмотр значений, алиасов и метаданных каждого токена.
+
+### 🔄 Сравнение версий (Diff Engine)
+- **История изменений:** Сравнивайте разные версии токенов (например, v2026-04-10 и v2026-04-16).
+- **Метрики изменений:** Автоматический подсчет добавленных, измененных и удаленных токенов.
+- **Визуальный Diff:** Подсветка изменений прямо в интерфейсе для быстрого аудита обновлений.
+
+### 🛠 Адаптеры и Форматы
+- **Поддержка Figma:** Работа с переменными (Variables) и стилями через экспорт.
+- **DTCG Standard:** Совместимость со стандартом W3C Design Tokens Community Group.
+- **Registry System:** Гибкая система регистрации новых наборов токенов.
+
+---
+
+## 💻 Как запустить (Portable Version)
+
+Это готовая к работе версия. Вам не нужно ничего настраивать, только запустить скрипт.
+
+1. **Скачайте:** [Загрузите архив с GitHub](https://github.com/Freaction/Tokens-dashboard/archive/refs/heads/main.zip)
+2. **Распакуйте:** Извлеките содержимое архива в любую папку.
+3. **Запустите:**
+   - **Windows:** Дважды кликните по `run-windows.bat`.
+   - **macOS / Linux:** Откройте терминал в папке и выполните `sh run-mac-linux.sh`.
+
+Dashboard откроется в браузере по адресу `http://localhost:3001`.
+
+---
+
+## 📋 Требования
+- Установленный [Node.js](https://nodejs.org/) (версия 16 или выше).
+
+---
+
+## 👨‍💻 Автор
+**Dmitriy Chaplinskiy**
+- 🌐 [Сайт](https://dmitriy-chaplinskiy.ru/)
+- ✈️ [Telegram (@dmitriy_yiu)](https://t.me/dmitriy_yiu)
+
+---
+
+*Лицензировано под MIT License.*
